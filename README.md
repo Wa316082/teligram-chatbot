@@ -1,4 +1,4 @@
-# Telegram AI Chatbot (Rafflestag)
+# Telegram AI Chatbot
 
 This project is a Telegram chatbot that uses:
 - python-telegram-bot for Telegram messaging
