@@ -21,9 +21,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user_name = update.effective_user.first_name
     await update.message.reply_text(f"Hello {user_name}! This is your AI assistant From Rafflestag. How can I assist you today?\n\n"
         f"I can help you with:\n"
-        f"🛍️ Product prices\n"
-        f"🎨 Customization options\n"
-        f"📦 Stock availability\n\n"
+        f"Product prices\n"
+        f"Customization options\n"
+        f"Stock availability\n\n"
         f"Just ask me anything!"
     )
 
